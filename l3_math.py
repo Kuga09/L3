@@ -5,7 +5,7 @@ print('Введите радиус круга (см):')
 R=float(input())
 C=2*PI*R
 S=PI*R**2
-a_kvadrat= R / (2**0.5)
+a_kvadrat= R * (2**0.5)
 a_treugolnik= R * (3**0.5)
 A_kvadrat= 2*R
 A_treugolnik=6*R /(3**0.5)
